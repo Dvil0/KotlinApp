@@ -14,7 +14,7 @@ class ArrivalsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
+        activity?.setTitle( R.string.arrivals_fragment_title )
         return inflater.inflate(R.layout.fragment_arrivals, container, false)
     }
 
